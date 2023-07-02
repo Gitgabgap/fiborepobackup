@@ -1,5 +1,8 @@
 README
 
+Docker repo:
+https://hub.docker.com/repository/docker/gabrielmarini123/fiborepo/general
+
 Instructions for Mac:
 
 To run application, open Terminal, and type:
