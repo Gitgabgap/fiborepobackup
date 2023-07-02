@@ -1,6 +1,16 @@
 README
 
+Github Repo:
+https://github.com/Gitgabgap/fiborepobackup
+
+Docker Repo:
+https://hub.docker.com/repository/docker/gabrielmarini123/fiborepo/general
+
 Instructions for Mac:
+
+Run in Terminal:
+
+docker pull gabrielmarini123/fiborepo:1.0.1
 
 To run application, open Terminal, and type:
 
