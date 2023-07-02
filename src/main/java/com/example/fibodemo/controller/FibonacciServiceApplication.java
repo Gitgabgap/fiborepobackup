@@ -46,7 +46,7 @@ class FibonacciController {
             if (a % 2 == 0) {
                 return -a; // Even numbers first
             } else {
-                return -a - 1; // Odd numbers next
+                return a; // Odd numbers next
             }
         }));
         int[] sorted = new int[sequence.length];
