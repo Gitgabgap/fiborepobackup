@@ -1,9 +1,22 @@
 README
 
-Docker repo:
+Github Repo:
+https://github.com/Gitgabgap/fiborepobackup
+
+Docker Repo:
 https://hub.docker.com/repository/docker/gabrielmarini123/fiborepo/general
 
 Instructions for Mac:
+(make sure you have Docker installed)
+https://hub.docker.com/
+
+Pulling the docker image:
+Open a new Terminal and type:
+
+
+To run application, open Terminal, and type:
+
+docker run -p 8080:8080 fibodemo-image
 
 To run application, open Terminal, and type:
 
