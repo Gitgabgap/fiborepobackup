@@ -1,6 +1,7 @@
 README
 
 update: fixed the sorting code
+update: changed the README.txt to README.md; less issues
 
 Java version: 17
 
