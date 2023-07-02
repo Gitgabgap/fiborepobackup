@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci Sequence</title>
+    <style>
+        body {
+            background-color: #F4C2C2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fibonacci Sequence</h1>
+    <form th:action="@{/fibonacci}" method="get">
+        <input type="number" name="elements" required>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>

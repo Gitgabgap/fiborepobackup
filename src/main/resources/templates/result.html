@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci Result</title>
+    <style>
+        body {
+            background-color: #F4C2C2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fibonacci:</h1>
+    <ul>
+        <li th:each="number : ${fibonacci}" th:text="${number}"></li>
+    </ul>
+    <h1>Sorted:</h1>
+    <ul>
+        <li th:each="number : ${sorted}" th:text="${number}"></li>
+    </ul>
+</body>
+</html>
