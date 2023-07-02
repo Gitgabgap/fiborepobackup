@@ -7,10 +7,16 @@ Docker Repo:
 https://hub.docker.com/repository/docker/gabrielmarini123/fiborepo/general
 
 Instructions for Mac:
+(make sure you have Docker installed)
+https://hub.docker.com/
 
-Run in Terminal:
+Pulling the docker image:
+Open a new Terminal and type:
 
-docker pull gabrielmarini123/fiborepo:1.0.1
+
+To run application, open Terminal, and type:
+
+docker run -p 8080:8080 fibodemo-image
 
 To run application, open Terminal, and type:
 
